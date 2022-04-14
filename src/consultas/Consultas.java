@@ -14,7 +14,7 @@ public class Consultas {
 	
 	public Consultas() {
 		EntityManagerFactory emf = 
-				Persistence.createEntityManagerFactory("$objectdb/db/dbproveedores.odb");
+				Persistence.createEntityManagerFactory("$objectdb/db/proveedoresdb.odb");
 		em = emf.createEntityManager();
 	}
 	

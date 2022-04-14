@@ -13,7 +13,7 @@
          <children>
             <ComboBox fx:id="combo" onAction="#eleccionComboBox" prefWidth="120.0" HBox.hgrow="SOMETIMES" />
             <TextField fx:id="textField" minWidth="50.0" onAction="#generarTablaGenerica" HBox.hgrow="SOMETIMES" />
-            <Button mnemonicParsing="false" text="+" />
+            <Button fx:id="insertar" mnemonicParsing="false" onAction="#insertar" text="+" />
          </children>
          <BorderPane.margin>
             <Insets />
